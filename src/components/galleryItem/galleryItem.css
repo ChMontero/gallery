@@ -1,0 +1,36 @@
+.gallery-item {
+  background-position: center;
+  background-size: cover;
+  transition: all .3s ease;
+  cursor: pointer;
+}
+
+.gallery-item:hover {
+  transform: scale(1.025);
+}
+
+.gallery-item::before {
+  content: "";
+  display: inline-block;
+  width: 1px;
+  height: 0;
+  padding-bottom: calc(100%);
+}
+
+.horizontal {
+  grid-column: span 2;
+}
+
+
+.horizontal::before {
+  content: "";
+  display: inline-block;
+  width: 1px;
+  height: 0;
+  padding-bottom: calc(50%);
+}
+
+
+.vertical {
+  grid-row: span 2;
+}
