@@ -24,6 +24,8 @@ export const HorizontalImage = () => (
     <GalleryItem className="gallery-item" key={1} index={1} item={itemHorizontal} orientation={'horizontal'} />
     <div className="grid-item-test" ><p>3</p></div>
     <div className="grid-item-test" ><p>4</p></div>
+    <div className="grid-item-test" ><p>5</p></div>
+    <div className="grid-item-test" ><p>6</p></div>
   </div>
 );
 
@@ -32,6 +34,8 @@ export const VerticalImage = () => (
     <GalleryItem className="gallery-item" key={1} index={1} item={itemVertical} orientation={'vertical'} />
     <div className="grid-item-test" ><p>3</p></div>
     <div className="grid-item-test" ><p>4</p></div>
+    <div className="grid-item-test" ><p>5</p></div>
+    <div className="grid-item-test" ><p>6</p></div>
   </div>
 );
 
@@ -41,5 +45,7 @@ export const SquareImage = () => (
     <div className="grid-item-test" ><p>2</p></div>
     <div className="grid-item-test" ><p>3</p></div>
     <div className="grid-item-test" ><p>4</p></div>
+    <div className="grid-item-test" ><p>5</p></div>
+    <div className="grid-item-test" ><p>6</p></div>
   </div>
 );
